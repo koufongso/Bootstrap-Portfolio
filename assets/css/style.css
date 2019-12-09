@@ -35,9 +35,10 @@ header{
 }
 
 #myName{
-    width: 240px;
-    font-size: 24px;
+    width: 10em;
+    font-size: 4vw;
     color: #ffffff;
+    text-align: center;
 }
 
 /*-------------------Main Content------------------------------*/
@@ -77,25 +78,26 @@ header{
     float:left;
     margin-right:30px;
     margin-bottom:30px;
+    padding:0px;
     position: relative;
 }
 
 #galery_block .galery img{
-    width: 300px;
+    width: 100%;
 }
 
 #galery_block .galery a{
     display: block;
     background: #4aaaa5;
-    width:300px;
-    font-size: 24px;
+    min-width:100%;
+    font-size: 2vw;
     text-align: center;
     color:#ffffff;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
     float:  left;
     position: absolute;
-    bottom:10px;
+    bottom:0.5em;
     text-decoration: none;
 }
 
